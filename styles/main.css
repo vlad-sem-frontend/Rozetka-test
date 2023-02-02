@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'p-font';
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'h2-font';
+  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+.h2-text {
+  color: #000000;
+  font-family: "h2-font";
+  font-size: 71px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  padding: 0;
+}
+
+.p-text {
+  color: #000000;
+  font-family: "p-font";
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .container-for-body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main .container-for-body .logo {
+  padding-top: 113px;
+}
+
+main .container-for-body .logo-block {
+  width: 268px;
+  height: 100px;
+}
+
+main .container-for-body .logo-content {
+  padding-top: 75px;
+}
+
+main .container-for-body .cont-for-img1 {
+  margin-top: 149px;
+}
+
+main .container-for-body .section-2-padding {
+  padding-top: 183px;
+}
+
+main .container-for-body .box-for-img1 {
+  width: 100%;
+}
+
+main .container-for-body .cont-for-img2 {
+  margin-top: 41px;
+}
+
+main .container-for-body .box-for-img2 {
+  width: 100%;
+}
+
+main .container-for-body .cont-for-big-img {
+  margin-top: 117px;
+}
+
+main .container-for-body .box-for-big-img {
+  width: 100%;
+}
+
+main .container-for-body .main-content-padding {
+  padding-top: 136px;
+  margin-bottom: 95px;
+}
+
+main .container-for-body .main-content-padding2 {
+  padding-top: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container-for-body .line {
+  width: 144px;
+  height: 1px;
+  border: 3px solid #000000;
+  background-color: #131313;
+  margin: 0 auto;
+  margin-top: 46px;
+}
+
+main .container-for-body .text-margin {
+  margin-top: 50px;
+}
+
+main .container-for-body .cont-for-text {
+  margin-top: 45px;
+}
+
+main .container-for-body .cont-for-img3 {
+  margin-top: 146px;
+}
+
+main .container-for-body .box-for-img3 {
+  width: 100%;
+}
+
+@media (max-width: 768.98px) {
+  main .container-for-body .h2-text {
+    font-size: 35px;
+  }
+  main .container-for-body .logo {
+    padding-top: 70px;
+  }
+  main .container-for-body .logo-content {
+    padding-top: 50px;
+  }
+  main .container-for-body .section-2-padding {
+    padding-top: 90px;
+  }
+  main .container-for-body .cont-for-img1 {
+    margin-top: 90px;
+  }
+  main .container-for-body .cont-for-img2 {
+    margin-top: 20px;
+  }
+  main .container-for-body .cont-for-big-img {
+    margin-top: 75px;
+  }
+  main .container-for-body .main-content-padding {
+    padding-top: 100px;
+  }
+  main .container-for-body .cont-for-img3 {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  main .container-for-body .h2-text {
+    font-size: 25px;
+  }
+  main .container-for-body .p-text {
+    font-size: 20px;
+  }
+  main .container-for-body .logo {
+    padding-top: 50px;
+  }
+  main .container-for-body .line {
+    border: 1px #000000 solid;
+    margin-top: 15px;
+  }
+  main .container-for-body .logo-content {
+    padding-top: 40px;
+  }
+  main .container-for-body .cont-for-img1 {
+    margin-top: 60px;
+  }
+  main .container-for-body .section-2-padding {
+    padding-top: 65px;
+  }
+  main .container-for-body .cont-for-big-img {
+    margin-top: 70px;
+  }
+  main .container-for-body .main-content-padding {
+    padding-top: 60px;
+    margin-bottom: 0px;
+  }
+  main .container-for-body .cont-for-img3 {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

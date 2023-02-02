@@ -1,0 +1,213 @@
+@import "../styles/fonts";
+
+.h2-text {
+   color: #000000;
+   font-family: "h2-font";
+   font-size: 71px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: center;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   padding: 0;
+}
+
+.p-text {
+   color: #000000;
+   font-family: "p-font";
+   font-size: 25px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+main {
+   width: 100%;
+   margin: 0 auto;
+
+   .container-for-body {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+
+      .logo {
+         padding-top: 113px;
+      }
+
+      .logo-block {
+         width: 268px;
+         height: 100px;
+      }
+
+      .logo-content {
+         padding-top: 75px;
+      }
+
+      .cont-for-img1 {
+         margin-top: 149px;
+      }
+
+      .section-2-padding {
+         padding-top: 183px;
+      }
+
+      .box-for-img1 {
+         width: 100%;
+      }
+
+      .cont-for-img2 {
+         margin-top: 41px;
+      }
+
+      .box-for-img2 {
+         width: 100%;
+      }
+
+      .cont-for-big-img {
+         margin-top: 117px;
+      }
+
+      .box-for-big-img {
+         width: 100%;
+      }
+
+      .main-content-padding {
+         padding-top: 136px;
+         margin-bottom: 95px;
+      }
+
+      .main-content-padding2 {
+         padding-top: 95px;
+         display: flex;
+         justify-content: center;
+      }
+
+      .line {
+         width: 144px;
+         height: 1px;
+         border: 3px solid #000000;
+         background-color: #131313;
+         margin: 0 auto;
+         margin-top: 46px;
+      }
+
+      .text-margin {
+         margin-top: 50px;
+      }
+
+      .cont-for-text {
+         margin-top: 45px;
+      }
+
+      .cont-for-img3 {
+         margin-top: 146px;
+      }
+
+      .box-for-img3 {
+         width: 100%;
+      }
+   }
+}
+
+// for laptops
+@media (max-width: 768.98px) {
+   main {
+      .container-for-body {
+         .h2-text {
+            font-size: 35px;
+         }
+
+         .logo {
+            padding-top: 70px;
+         }
+
+         .logo-content {
+            padding-top: 50px;
+         }
+
+         .section-2-padding {
+            padding-top: 90px;
+         }
+
+         .cont-for-img1 {
+            margin-top: 90px;
+         }
+
+         .cont-for-img2 {
+            margin-top: 20px;
+         }
+
+         .cont-for-big-img {
+            margin-top: 75px;
+         }
+
+         .main-content-padding {
+            padding-top: 100px;
+         }
+
+         .cont-for-img3 {
+            margin-top: 85px;
+         }
+      }
+   }
+}
+
+// for phones
+@media (max-width: 575.98px) {
+   main {
+      .container-for-body {
+         .h2-text {
+            font-size: 25px;
+         }
+
+         .p-text {
+            font-size: 20px;
+         }
+
+         .logo {
+            padding-top: 50px;
+         }
+
+         .line {
+            border: 1px #000000 solid;
+            margin-top: 15px;
+         }
+
+         .logo-content {
+            padding-top: 40px;
+         }
+
+         .cont-for-img1 {
+            margin-top: 60px;
+         }
+
+         .section-2-padding {
+            padding-top: 65px;
+         }
+
+         .cont-for-big-img {
+            margin-top: 70px;
+         }
+
+         .main-content-padding {
+            padding-top: 60px;
+            margin-bottom: 0px;
+         }
+
+         .cont-for-img3 {
+            margin-top: 50px;
+         }
+      }
+   }
+}
